@@ -18,29 +18,36 @@ string_teachers = "4"
 numberDogs = 0
 
 # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
-puts "Is number_teachers greater than number_students?", number_teachers > number_students
+# puts "Is number_teachers greater than number_students?", number_teachers > number_students
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
-# this should print: true
+# puts "Is number_teachers less than number_students?", number_teachers < number_students
+# this should print: "Is numberTeachers less than numberStudents?" true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
-# this should print: false
+# puts "Is number_teachers equal to string_teachers?", number_teachers = string_teachers
+# this should print: "is numberTeachers equal to stringTeachers?" false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
-# this should print: true
+# puts "is number_teachers not equal to number_students?", number_teachers != number_students
+# this should print: "Is numberTeachers not equal to numberStudents?" true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
-# this should print: true
+# puts "is number_students greater than or equal to 20?", number_students >= 20
+# this should print: "is number_students greater than or equal to 20?" true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
-# this should print: false
+# puts "is number_students greater than or equal to 21?", number_atudents >= 21
+# this should print: "Is number_students greater than or equal to 21?" false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
-# this should print: true
+# puts "is number_students less than or equal to 20?", number_students <= 20
+# this should print: "Is number_students less than or equal to 20?" true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
-# this should print: true
+# puts "is number_students less than or equal to 21?", number_students <= 21
+# this should print: "Is number_students less than or equal to 21?" true
 
 
 #-------------------
@@ -54,20 +61,27 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
+# print the result of the comparison: is 4 less than 9?
+# this should print: "Number 4 is less than 9?" the result should be true since 4 is lower value than 9
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# this should print:" number 4 is less than number of books?" the reult should be false since number is 4 and books = 3
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# print the result of the comparison: is numbers of friends greater than number of siblings?
+# This should print: "number of friends is greater than number of siblings?", the result should be true since friends +6 and siblings = 2
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# print the results of the comparison: is nnumber of attendees not equal to number of meals?
+# this should print: "Is number of atendees not equal to number of meals?", the result should be true since number of atendees = 9 and number meals = 8
 
 
 #-------------------
@@ -90,15 +104,15 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+# puts loves_to_play && loves_treats 
 
 # Determine if the dog loves to play and loves the dog park
-
+# puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+# puts loves_to_play || loves-dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+# puts loves_to_play && is_puppy
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: A puppy is condsidered a puppy after so many years and at 1 years old it is.
