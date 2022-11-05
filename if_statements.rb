@@ -43,17 +43,11 @@ end
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
-
-num_quarters = 1
-
-if num_quarters == 2
-  puts "I have enough money for a gumball"
-elsif num_quarters < 2
-  puts "I dont have enough money for a gumball"
+if num_quarters >= 2
+    puts "I have enough money for a gumball"
+else
+    puts "I don't have enough money for a gumball"
 end
-
 
 #####################
 # Using the variables defined below, write code that will tell you
@@ -72,12 +66,8 @@ end
 cups_of_flour = 1
 has_sauce = true
 
-if cups_of_flour == 1 && has_sauce == true
+if cups_of_flour >= 2  && has_sauce == true 
   puts "I cannot make pizza"
-elsif cups_of_flour == 5 && has_sauce == false 
+else 
   puts "I cannot make pizza"
-elsif cups_of_flour == 2 && has_sauce == true
-  puts "I can make pizza"
-elsif cups_of_flour == 3 and has_sauce == true
-  puts "I can make pizza"
 end
